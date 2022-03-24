@@ -1,5 +1,5 @@
-const { indigo, indigoDark, grass, grassDark, red, redDark } = require('@radix-ui/colors');
 // https://www.radix-ui.com/docs/colors/palette-composition/the-scales
+const { indigo, indigoDark, grass, grassDark, red, redDark } = require('@radix-ui/colors');
 
 module.exports = {
     content: [
