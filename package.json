@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "vaccinator-site",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "5",
+    "nuxt3": "latest"
+  }
+}
