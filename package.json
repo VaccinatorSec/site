@@ -10,5 +10,8 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "5",
     "nuxt3": "latest"
+  },
+  "dependencies": {
+    "@radix-ui/colors": "^0.1.8"
   }
 }
