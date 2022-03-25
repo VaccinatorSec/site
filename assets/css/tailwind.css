@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center font-medium;
+        padding: 0.75em 1.5em;
+        border-radius: 0.375em;
+    }
+    .btn-primary {
+        @apply text-primary-1 bg-primary-9 hover:bg-primary-10;
+    }
+    .btn-secondary {
+        @apply text-primary-11 bg-primary-6 hover:bg-primary-7;
+    }
+}
