@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                // https://www.radix-ui.com/docs/colors/palette-composition/the-scales#indigo
+                // https://www.radix-ui.com/docs/colors/palette-composition/the-scales#violet
                 'primary': {
                     1: violet.violet1,
                     2: violet.violet2,
