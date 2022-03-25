@@ -1,5 +1,5 @@
 // https://www.radix-ui.com/docs/colors/palette-composition/the-scales
-const { indigo, indigoDark, grass, grassDark, red, redDark } = require('@radix-ui/colors');
+const { violet, violetDark, grass, grassDark, red, redDark } = require('@radix-ui/colors');
 
 module.exports = {
     content: [
@@ -13,32 +13,32 @@ module.exports = {
             colors: {
                 // https://www.radix-ui.com/docs/colors/palette-composition/the-scales#indigo
                 'primary': {
-                    1: indigo.indigo1,
-                    2: indigo.indigo2,
-                    3: indigo.indigo3,
-                    4: indigo.indigo4,
-                    5: indigo.indigo5,
-                    6: indigo.indigo6,
-                    7: indigo.indigo7,
-                    8: indigo.indigo8,
-                    9: indigo.indigo9,
-                    10: indigo.indigo10,
-                    11: indigo.indigo11,
-                    12: indigo.indigo12
+                    1: violet.violet1,
+                    2: violet.violet2,
+                    3: violet.violet3,
+                    4: violet.violet4,
+                    5: violet.violet5,
+                    6: violet.violet6,
+                    7: violet.violet7,
+                    8: violet.violet8,
+                    9: violet.violet9,
+                    10: violet.violet10,
+                    11: violet.violet11,
+                    12: violet.violet12
                 },
                 'primary-dark': {
-                    1: indigoDark.indigo1,
-                    2: indigoDark.indigo2,
-                    3: indigoDark.indigo3,
-                    4: indigoDark.indigo4,
-                    5: indigoDark.indigo5,
-                    6: indigoDark.indigo6,
-                    7: indigoDark.indigo7,
-                    8: indigoDark.indigo8,
-                    9: indigoDark.indigo9,
-                    10: indigoDark.indigo10,
-                    11: indigoDark.indigo11,
-                    12: indigoDark.indigo12
+                    1: violetDark.violet1,
+                    2: violetDark.violet2,
+                    3: violetDark.violet3,
+                    4: violetDark.violet4,
+                    5: violetDark.violet5,
+                    6: violetDark.violet6,
+                    7: violetDark.violet7,
+                    8: violetDark.violet8,
+                    9: violetDark.violet9,
+                    10: violetDark.violet10,
+                    11: violetDark.violet11,
+                    12: violetDark.violet12
                 },
                 // https://www.radix-ui.com/docs/colors/palette-composition/the-scales#grass
                 'success': {
