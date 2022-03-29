@@ -48,12 +48,16 @@ export default {
     return {
       navigation: [
         {
-          name: "Scanner",
+          name: "Malware Analysis",
           href: "https://analysis.vaccinator.dev"
         },
         {
+          name: "Learn",
+          href: "#" // todo: /learn
+        },
+        {
           name: "Blog",
-          href: "#"
+          href: "#" // todo: /blog
         },
         {
           name: "GitHub",
