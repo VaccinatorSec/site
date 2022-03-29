@@ -26,20 +26,6 @@ module.exports = {
                     11: violet.violet11,
                     12: violet.violet12
                 },
-                'primary-dark': {
-                    1: violetDark.violet1,
-                    2: violetDark.violet2,
-                    3: violetDark.violet3,
-                    4: violetDark.violet4,
-                    5: violetDark.violet5,
-                    6: violetDark.violet6,
-                    7: violetDark.violet7,
-                    8: violetDark.violet8,
-                    9: violetDark.violet9,
-                    10: violetDark.violet10,
-                    11: violetDark.violet11,
-                    12: violetDark.violet12
-                },
                 // https://www.radix-ui.com/docs/colors/palette-composition/the-scales#grass
                 'success': {
                     1: grass.grass1,
@@ -55,20 +41,6 @@ module.exports = {
                     11: grass.grass11,
                     12: grass.grass12
                 },
-                'success-dark': {
-                    1: grassDark.grass1,
-                    2: grassDark.grass2,
-                    3: grassDark.grass3,
-                    4: grassDark.grass4,
-                    5: grassDark.grass5,
-                    6: grassDark.grass6,
-                    7: grassDark.grass7,
-                    8: grassDark.grass8,
-                    9: grassDark.grass9,
-                    10: grassDark.grass10,
-                    11: grassDark.grass11,
-                    12: grassDark.grass12
-                },
                 // https://www.radix-ui.com/docs/colors/palette-composition/the-scales#red
                 'error': {
                     1: red.red1,
@@ -83,23 +55,10 @@ module.exports = {
                     10: red.red10,
                     11: red.red11,
                     12: red.red12
-                },
-                'error-dark': {
-                    1: redDark.red1,
-                    2: redDark.red2,
-                    3: redDark.red3,
-                    4: redDark.red4,
-                    5: redDark.red5,
-                    6: redDark.red6,
-                    7: redDark.red7,
-                    8: redDark.red8,
-                    9: redDark.red9,
-                    10: redDark.red10,
-                    11: redDark.red11,
-                    12: redDark.red12
                 }
             }
         }
     },
-    plugins: []
+    plugins: [],
+    darkMode: 'class'
 }

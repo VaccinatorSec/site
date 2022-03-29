@@ -3,8 +3,12 @@
 @import "tailwindcss/utilities";
 
 @layer base {
-    body, html {
-        @apply bg-primary-1;
+    body {
+        @apply bg-zinc-100 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100;
+    }
+
+    html {
+        background-color: transparent;
     }
 }
 
@@ -15,7 +19,7 @@
         border-radius: 0.375em;
     }
     .btn-primary {
-        @apply text-primary-1 bg-primary-9 hover:bg-primary-10;
+        @apply text-zinc-100 bg-primary-9 hover:bg-primary-10;
     }
     .btn-secondary {
         @apply text-primary-11 bg-primary-6 hover:bg-primary-7;
