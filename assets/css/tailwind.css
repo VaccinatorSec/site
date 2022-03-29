@@ -2,6 +2,12 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer base {
+    body, html {
+        @apply bg-primary-1;
+    }
+}
+
 @layer components {
     .btn {
         @apply inline-flex items-center font-medium;
