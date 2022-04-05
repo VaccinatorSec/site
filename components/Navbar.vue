@@ -49,7 +49,7 @@ export default {
       navigation: [
         {
           name: "Malware Analysis",
-          href: "https://analysis.vaccinator.dev"
+          href: "https://analysis.vaccinator.tech"
         },
         {
           name: "Learn",
@@ -61,11 +61,11 @@ export default {
         },
         {
           name: "GitHub",
-          href: "https://github.com/TheVaccinator"
+          href: "https://github.com/VaccinatorSec"
         },
         {
           name: "Contact",
-          href: "mailto:team@vaccinator.dev"
+          href: "mailto:admin@vaccinator.tech"
         }
       ],
       opened: false,

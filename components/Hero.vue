@@ -44,7 +44,7 @@ export default {
       ],
       cta: {
         upsell: "Found possible malware?",
-        href: "https://analysis.vaccinator.dev",
+        href: "https://analysis.vaccinator.tech",
         text: "Upload & Scan",
         smallprint: "This will redirect you to our external scanning utility."
       }

@@ -6,7 +6,7 @@
 ## Online Resources
 
 ### Malware
-- [Vaccinator Malware Analysis Platform](https://analysis.vaccinator.dev)
+- [Vaccinator Malware Analysis Platform](https://analysis.vaccinator.tech)
 - VirusTotal
 - Hybrid Analysis
 - Filescan.io
