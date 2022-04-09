@@ -1,7 +1,7 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import solid from '@fortawesome/free-solid-svg-icons'
+import * as solid from '@fortawesome/free-solid-svg-icons'
 const { faBars, faXmark } = solid;
 
 library.add(faBars)
