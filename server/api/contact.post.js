@@ -29,6 +29,7 @@ export default defineEventHandler(async (event) => {
 		.json()
 
 	if (!captcha_res.success) {
+		console.log(captcha_res)
 		return {
 			success: false,
 			message: 'Invalid captcha'
