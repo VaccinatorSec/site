@@ -15,6 +15,11 @@ export default defineNuxtConfig({
         port: 22124
     },
 
+    privateRuntimeConfig: {
+        HCAPTCHA_SECRET: process.env.HCAPTCHA_SECRET,
+        EMAIL_SECRET: process.env.EMAIL_SECRET
+    },
+
     build: {
         transpile: ['@fortawesome/fontawesome-svg-core', '@fortawesome/vue-fontawesome', '@fortawesome/free-solid-svg-icons']
     }
