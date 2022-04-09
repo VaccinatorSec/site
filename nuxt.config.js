@@ -10,7 +10,12 @@ export default defineNuxtConfig({
     colorMode: {
         classSuffix: ''
     },
+    
     server: {
         port: 22124
+    },
+
+    build: {
+        transpile: ['@fortawesome/fontawesome-svg-core', '@fortawesome/vue-fontawesome', '@fortawesome/free-solid-svg-icons']
     }
 })
